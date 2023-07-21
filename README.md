@@ -1,6 +1,6 @@
 # version.link 
 
-In this repository we develop the *version.link* model.
+In this repository we document the swiss federal archives SIARD to RDF model.
 
 `@prefix vl: <https://version.link/>.`
 
