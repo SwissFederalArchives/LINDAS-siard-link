@@ -1,4 +1,4 @@
 {
   "baseConfig": "cwd:trifid/config.json",
-  "datasetBaseUrl": "https://version.link/"
+  "datasetBaseUrl": "https://siard.link/"
 }
