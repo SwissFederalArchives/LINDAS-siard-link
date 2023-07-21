@@ -1,7 +1,7 @@
 {
-  "name": "version-link",
+  "name": "siard-link",
   "version": "0.0.3",
-  "description": "version.link: Identity Versioning",
+  "description": "siard.link: siard archival datastructure converted to linked data",
   "scripts": {
     "build": "./build.sh",
     "test": "standard"
@@ -11,19 +11,19 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/bfh/version-link.git"
+    "url": "git://github.com/swissfederalarchives/siard-link.git"
   },
   "keywords": [
     "rdf",
-    "versioning",
-    "schema"
+    "archives",
+    "documentation"
   ],
-  "author": "Michael Luggen",
+  "author": "Claudio Di Gallo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bfh/version-link/issues"
+    "url": "https://github.com/swissfederalarchives/siard-link/issues"
   },
-  "homepage": "https://github.com/bfh/version-link",
+  "homepage": "https://github.com/swissfederalarchives/siard-link",
   "dependencies": {
     "@rdfjs/namespace": "^1.1.0",
     "@rdfjs/to-ntriples": "^1.0.2",
