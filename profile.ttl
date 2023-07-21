@@ -1,8 +1,8 @@
-@prefix vl: <https://version.link/>.
+@prefix siard: <https://siard.link#>.
 @prefix schema: <http://schema.org/>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 
-# A version.link profile for schema.org concepts.
+/*# A version.link profile for schema.org concepts.
 vl:Profile_SchemaOrg a vl:Profile;
     vl:identifierPredicate schema:identifier;
     vl:namePredicate schema:name;
@@ -19,3 +19,7 @@ vl:Profile_SKOS a vl:Profile;
     vl:validThroughPredicate dcterms:date;
     vl:hasPartPredicate skos:narrower;
     vl:isPartOfPredicate skos:broader.
+
+
+edit: SIARD.link 
+probably not needed anymore. Maybe it should be adapted to siard.link.
