@@ -6,7 +6,7 @@ In this repository we document the swiss federal archives SIARD to RDF model.
 
 ## How to Contribute
 
-Please open [Issues](https://github.com/bfh/version-link/issues) on this repository or provide PRs for contributions.
+Please open [Issues](https://github.com/bfh/siard-link/issues) on this repository or provide PRs for contributions.
 
 
 #Other stuff
