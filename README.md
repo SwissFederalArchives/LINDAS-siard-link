@@ -2,7 +2,7 @@
 
 In this repository we document the swiss federal archives SIARD to RDF model.
 
-`@prefix vl: <https://version.link/>.`
+`@prefix siard: <http://siard.link#>.`
 
 ## How to Contribute
 
