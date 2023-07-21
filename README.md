@@ -1,4 +1,4 @@
-# version.link 
+# siard.link 
 
 In this repository we document the swiss federal archives SIARD to RDF model.
 
