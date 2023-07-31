@@ -55,23 +55,6 @@ command line tools available for the conversion
 
 Visualisation of the Stapfer-Enquête database:
 
-![](media/image9.png){width="6.267716535433071in"
-height="4.069444444444445in"}
-
-To create a SIARD-file, a custom view could be defined (not necessary
-for the Stapfer-Enquête):
-
-![](media/image3.png){width="6.267716535433071in"
-height="2.3333333333333335in"}
-
-SIARD-File is the created and can be imported into the viewer
-
-![](media/image5.png){width="5.25in" height="4.71875in"}
-
-The DBPTK can also visualize SIARD files:
-
-![](media/image7.png){width="6.267716535433071in"
-height="5.069444444444445in"}
 
 ## Structure of SIARD files
 
@@ -88,8 +71,7 @@ A SIARD file contains two folders:
 To map this structure to RDF, the information that is distributed over
 the two folders must be brought together.
 
-![](media/image1.png){width="6.267716535433071in"
-height="5.180555555555555in"}
+
 
 *SIARD 2.2 (2021), p. 17*
 
@@ -203,8 +185,7 @@ table have no specific order.
 
 ### Interlinking between metadata.xml and tableN.xml
 
-![](media/image4.png){width="6.267716535433071in"
-height="4.194444444444445in"}
+
 
 *Link between metadata.xml and table1.xml*
 
@@ -399,9 +380,6 @@ class siard:Cell. The attributes cannot simply be converted to RDF
 properties, because they include a relation to the field definition in
 siard:Column and must therefore be mapped into a dedicated class.
 
-![](media/image8.png){width="4.883171478565179in"
-height="5.827083333333333in"}
-
 **siard:Schema**
 
 First, the database schema has to be described, based on information in
@@ -463,118 +441,3 @@ table can be empty or points to its record(s):
 The siard:Table points to the siard:Column class that contains the
 definition of the database fields.
 
-\<https://ld.admin.ch/olympics/OLYMPICS/Countries/ID\> a
-\<http://siard.link#Column\>;
-
-\<http://siard.link#name\> \"ID\";
-
-\<http://siard.link#nullable\> \"false\";
-
-\<http://siard.link#type\> \"DECIMAL(38)\";
-
-\<http://siard.link#typeOriginal\> \"NUMBER(38)\" ;
-
-\<http://www.w3.org/ns/prov#wasDerivedFrom\> \"metadata.xml\".
-
-\<https://ld.admin.ch/olympics/OLYMPICS/Countries/Country\> a
-\<http://siard.link#Column\>;
-
-\<http://siard.link#name\> \"Country\";
-
-\<http://siard.link#nullable\> \"true\";
-
-\<http://siard.link#type\> \"CHARACTER VARYING(50)\";
-
-\<http://siard.link#typeOriginal\> \"VARCHAR2(50)\" ;
-
-\<http://www.w3.org/ns/prov#wasDerivedFrom\> \"metadata.xml\".
-
-**siard:Row**
-
-In this example, the table contains six database records, represented
-with the class siard:Row. The database record contains two attributes.
-
-\<https://ld.admin.ch/olympics/OLYMPICS/Countries/row/r1\> a
-\<http://siard.link#Row\>;
-
-\<http://siard.link#hasCell\>
-\<https://ld.admin.ch/olympics/OLYMPICS/Countries/cell/r1/c1\>,
-\<https://ld.admin.ch/olympics/OLYMPICS/Countries/cell/r1/c2\>;
-
-\<http://www.w3.org/ns/prov#wasDerivedFrom\> \"table1.xml\".
-
-**siard:Cell**
-
-The value of the attributes are represented in their own class
-siard:Cell. The siard:Cell contains not only the value in a literal, but
-also a siard:columnType link to the definition of the database field in
-siard:Column.
-
-\<https://ld.admin.ch/olympics/OLYMPICS/Countries/cell/r1/c1\> a
-\<http://siard.link#Cell\>;
-
-\<http://siard.link#value\> \"1001\";
-
-\<http://siard.link#columnType\>
-\<https://ld.admin.ch/olympics/OLYMPICS/Countries/ID\>;
-
-\<http://www.w3.org/ns/prov#wasDerivedFrom\> \"table1.xml\".
-
-\<https://ld.admin.ch/olympics/OLYMPICS/Countries/cell/r1/c2\> a
-\<http://siard.link#Cell\>;
-
-\<http://siard.link#value\> \"Germany\";
-
-\<http://siard.link#columnType\>
-\<https://ld.admin.ch/olympics/OLYMPICS/Countries/Country\>;
-
-\<http://www.w3.org/ns/prov#wasDerivedFrom\> \"table1.xml\".
-
-### Primary Keys / Foreign Keys
-
-In relational databases, relations between database tables are created
-with primary keys / foreign keys pointing to each other. The foreign key
-of table A points to the primary key (unique identifier) of table B.
-
-![](media/image2.png){width="6.267716535433071in"
-height="2.861111111111111in"}
-
-The keys can also consist of several concatenated fields. SIARD can
-handle this use case.
-
-![](media/image6.png){width="6.267716535433071in"
-height="3.1805555555555554in"}
-
-In the second example, two cells together form the foreign key / primary
-key. In addition, primary keys and foreign keys can have attributes, as
-it is described in the SIARD specification, chapters 5.8 and 5.9.
-
-## Ontology 
-
-## 
-
-## Implementation and automation of the Mapping
-
-[\[Florian\]]{.mark}
-
-[Dokumentation Werkzeug]{.mark}
-
-##  
-
-## References
-
-Bytyçi, E., Ahmedi, L., & Gashi, G. (2018). RDF Mapper: Easy Conversion
-of Relational Databases to RDF: Proceedings of the 14th International
-Conference on Web Information Systems and Technologies, 161--165.
-[https://doi.org/10.5220/0006925501610165](https://doi.org/10.5220/0006925501610165)
-
-SIARD 2.2 Format Specification (2021).
-[https://siard.dilcis.eu/SIARD%202.2/SIARD%202.2.pdf](https://siard.dilcis.eu/SIARD%202.2/SIARD%202.2.pdf).
-
-Gelati, F. (2019). Die nachhaltige Bewahrung einer Forschungsdatenbank
-durch Linked Data. Laut welchem Vokabular? Library Ideas:
-[https://hal.archives-ouvertes.fr/hal-02427346/](https://hal.archives-ouvertes.fr/hal-02427346/)
-
-## Appendix
-
-### Appendix A: metadata.xml expressed in RDF-Turtle
