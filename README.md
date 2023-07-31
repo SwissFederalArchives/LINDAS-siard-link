@@ -1,3 +1,8 @@
+# Note to myself
+
+the abstract.md file works. the real siard-siardrdf.md does not. respec hates it.
+
+
 # siard.link 
 
 In this repository we document the swiss federal archives SIARD to RDF model.
