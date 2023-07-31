@@ -13,12 +13,12 @@ var respecConfig = {
     editors: [{
       name: "Tobias Wildi",
       company: "University of applied Sciences Grisons",
-      companyURL: "https://www.bfh.ch",
+      companyURL: "https://www.fhgr.ch",
       url: "mailto:Tobias.Wildi@fhgr.ch",
     },
     {
       name: "Claudio Di gallo",
-      company: "BSwiss Federal Archives (SFA)",
+      company: "Swiss Federal Archives (SFA)",
       companyURL: "https://www.bfh.ch",
       url: "mailto:claudio.digallo@bar.admin.ch"
     },
