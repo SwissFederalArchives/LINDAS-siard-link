@@ -550,8 +550,6 @@ it is described in the SIARD specification, chapters 5.8 and 5.9.
 
 [Dokumentation Werkzeug]{.mark}
 
- 
-
 ## References
 
 Bytyçi, E., Ahmedi, L., & Gashi, G. (2018). RDF Mapper: Easy Conversion
