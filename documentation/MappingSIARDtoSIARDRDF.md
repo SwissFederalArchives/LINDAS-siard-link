@@ -177,9 +177,9 @@ following way:
 As it is typical for relational databases, the recordsets (rows) in a
 table have no specific order.
 
-|  Table    |       				|        			|
-|  ---------| ----------------------| ------------------|
-| Row       |                   	|                   |
+|  Table    |       				|
+|  ---------| ----------------------| 
+| Row       |                   	|
 |	 		|                       |
 |           | c1                    |
 |           | c2                    |
