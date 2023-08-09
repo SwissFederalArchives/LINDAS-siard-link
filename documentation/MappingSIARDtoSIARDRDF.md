@@ -23,7 +23,6 @@ the school situation in Switzerland in the Helvetic Republic from 1799.
 MySQL-Dump:
 [https://opendata.swiss/de/dataset/stapfer-enquete-schule-in-der-schweiz-1799](https://opendata.swiss/de/dataset/stapfer-enquete-schule-in-der-schweiz-1799)
 
-## Creating SIARD from MySQL databases
 
 The goal is to create a SIARD-File out of a MySQL database schema.
 
