@@ -43,22 +43,22 @@ command line tools available for the conversion
 
 Visualisation of the Stapfer-Enquête database:
 
-![](media/image9.png){width="6.267716535433071in"
+![](images/image001.png){width="6.267716535433071in"
 height="4.069444444444445in"}
 
 To create a SIARD-file, a custom view could be defined (not necessary
 for the Stapfer-Enquête):
 
-![](media/image3.png){width="6.267716535433071in"
+![](images/image003.png){width="6.267716535433071in"
 height="2.3333333333333335in"}
 
 SIARD-File is the created and can be imported into the viewer
 
-![](media/image5.png){width="5.25in" height="4.71875in"}
+![](images/image005.png){width="5.25in" height="4.71875in"}
 
 The DBPTK can also visualize SIARD files:
 
-![](media/image7.png){width="6.267716535433071in"
+![](images/image007.png){width="6.267716535433071in"
 height="5.069444444444445in"}
 
 ## Structure of SIARD files
@@ -76,7 +76,7 @@ A SIARD file contains two folders:
 To map this structure to RDF, the information that is distributed over
 the two folders must be brought together.
 
-![](media/image1.png){width="6.267716535433071in"
+![](images/image009.png){width="6.267716535433071in"
 height="5.180555555555555in"}
 
 *SIARD 2.2 (2021), p. 17*
@@ -188,7 +188,7 @@ table have no specific order.
 
 ### Interlinking between metadata.xml and tableN.xml
 
-![](media/image4.png){width="6.267716535433071in"
+![](images/image011.png){width="6.267716535433071in"
 height="4.194444444444445in"}
 
 *Link between metadata.xml and table1.xml*
@@ -390,7 +390,7 @@ class siard:Cell. The attributes cannot simply be converted to RDF
 properties, because they include a relation to the field definition in
 siard:Column and must therefore be mapped into a dedicated class.
 
-![](media/image8.png){width="4.883171478565179in"
+![](images/image013.png){width="4.883171478565179in"
 height="5.827083333333333in"}
 
 **siard:Schema**
@@ -527,13 +527,13 @@ In relational databases, relations between database tables are created
 with primary keys / foreign keys pointing to each other. The foreign key
 of table A points to the primary key (unique identifier) of table B.
 
-![](media/image2.png){width="6.267716535433071in"
+![](images/image015.png){width="6.267716535433071in"
 height="2.861111111111111in"}
 
 The keys can also consist of several concatenated fields. SIARD can
 handle this use case.
 
-![](media/image6.png){width="6.267716535433071in"
+![](images/image017.png){width="6.267716535433071in"
 height="3.1805555555555554in"}
 
 In the second example, two cells together form the foreign key / primary
