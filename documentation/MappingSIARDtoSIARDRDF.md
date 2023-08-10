@@ -49,7 +49,6 @@ To create a SIARD-file, a custom view could be defined (not necessary
 for the Stapfer-Enquête):
 
 <img src="images/image003.png" width="602" height="224">
-height="2.3333333333333335in"}
 
 SIARD-File is the created and can be imported into the viewer
 
