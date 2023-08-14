@@ -7,7 +7,7 @@ var respecConfig = {
     maxTocLevel: 4,
     postProcess: [jumpTo],
     github: {
-      repoURL: "https://github.com/CDiGallo/siard-link2",
+      repoURL: "https://github.com/AdMSilvan/siard-link2",
       branch: "main", // alternative branch
     },
     editors: [{
@@ -17,7 +17,7 @@ var respecConfig = {
       url: "mailto:Tobias.Wildi@fhgr.ch",
     },
     {
-      name: "Claudio Di gallo",
+      name: "Claudio Di Gallo",
       company: "Swiss Federal Archives (SFA)",
       companyURL: "https://www.bfh.ch",
       url: "mailto:claudio.digallo@bar.admin.ch"
