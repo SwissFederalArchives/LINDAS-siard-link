@@ -1,1 +1,1 @@
-abstract
+This documentation describes the mapping of the Siard database archiving format to the linked data format RDF. The tool to perform this mapping and transformation was designed and implemented by Tobias Wildi and his students at the University of applied sciences Grisons. The tool is still under development and the documentation is still in a draft stage. It is not yet intended to be read as a finalised project. 
