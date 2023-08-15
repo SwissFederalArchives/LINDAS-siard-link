@@ -538,9 +538,6 @@ it is described in the SIARD specification, chapters 5.8 and 5.9.
 
 ## Implementation and automation of the Mapping
 
-[\[Florian\]]{.mark}
-
-[Dokumentation Werkzeug]{.mark}
 
 ## References
 
@@ -555,7 +552,3 @@ SIARD 2.2 Format Specification (2021).
 Gelati, F. (2019). Die nachhaltige Bewahrung einer Forschungsdatenbank
 durch Linked Data. Laut welchem Vokabular? Library Ideas:
 [https://hal.archives-ouvertes.fr/hal-02427346/](https://hal.archives-ouvertes.fr/hal-02427346/)
-
-## Appendix
-
-### Appendix A: metadata.xml expressed in RDF-Turtle
